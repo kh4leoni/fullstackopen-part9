@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/patients
+Content-Type: application/json
+
+{
+  "name": "Mikke Makkonen",
+  "dateOfBirth": "1970-02-24",
+  "gender": "male",
+  "occupation": "Työmies"
+}
